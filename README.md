@@ -14,3 +14,5 @@ completely_LeNet5-paper 是大佬的完全版复现代码
 添加了 ZFnet的论文和复现代码
 
 添加了 GoogLeNet & inception 的论文和复现代码
+
+添加了 ResNet 的论文和复现代码 (18和34)
