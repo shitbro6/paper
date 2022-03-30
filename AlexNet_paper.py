@@ -92,9 +92,9 @@ def train(epoch):
         runing_loss += loss.item()
     # 每轮训练一共训练1W个样本，这里的runing_loss是1W个样本的总损失值，要看每一个样本的平均损失值， 记得除10000
 
-    print("这是第 %d轮训练，当前损失值 %.5f" % (epoch + 1, runing_loss / 782))
+    print("这是第 %d轮训练，当前损失值 %.5f" % (epoch + 1, runing_loss / 391))
 
-    return runing_loss / 782
+    return runing_loss / 391
 
 def test(epoch):
     correct = 0
@@ -145,6 +145,6 @@ if __name__ == '__main__':
 
 
 
-# 运行  391 次
+
 
 
